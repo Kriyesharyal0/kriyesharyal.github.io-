@@ -171,7 +171,7 @@ h3{
 	transition: 0.5s;
 
 }
-.layer: hover{
+.layer:hover{
 	background: rgba(226,0,0,0.7) ;
 }
 .layer h3{
@@ -192,6 +192,9 @@ h3{
 	opacity: 1;
 
 }
+
+
+
 .facilities{
 	width:80%;
 	margin:auto;
@@ -218,8 +221,6 @@ h3{
 	text-align: left;
 	
 }
-
-
 
 
 
