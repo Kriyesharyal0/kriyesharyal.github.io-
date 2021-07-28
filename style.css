@@ -46,7 +46,7 @@ a{
   background-size: 1330px;
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-image: url("../images/bg.png");
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/myphoto.jpg);
   background-color: #edf1fd;
 }
 nav{
