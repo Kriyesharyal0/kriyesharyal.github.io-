@@ -1,241 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewpoint" content="width=device-width, intial-scale=1.0">	
-<title>Personal Portfolio Websites</title>
-<link rel="stylesheet" type="text/css" href="./style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-
-
-
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
-<body >
+<body>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Desig<span>ne</span>r..</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
 
-	<!--navigation-------------------------------->
-	<nav>
-	<!--logo--->
-	<a href="#" class="logo">LOGO</a>
-	<!--menu--------->
-	<div class="toggle"></div>
-	<ul class="menu">
-	<li class="active"><a href="#home" >Home</a></li>	
-	<li><a href="#about">About</a></li>	
-	<li><a href="#services">Services</a></li>	
-	<li><a href="#portfolio">Portfolio</a></li>		
-	<li><a href="#contact-form">Contact</a></li>	
-	</ul>
-	<!--language-->
-	<a href="#" class="lang">En</a>
-	</nav>
-<!---home section start ---->
-<section class="home" id="home">
-<div id="typed-strings"m>
-	<p>Graphics Desinger</p>
-	<p>Blogger</p>
-	<p>Freelancer</p>
-	<p>Content Creator</p>
-	
-  <!-- <p>Typed.js is a <strong>JavaScript</strong> library.</p> -->
-  <!-- <p>It <em>types</em> out sentences.</p> -->
-</div>
-<!-- <span id="typed"></span> -->
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+                                </div>
+			<h1>Kriyesh</h1>
+			<h3>Graphics <span>Designer.</span></h3>
+			<p> with 1.5+ years experience that keep customers <br> coming for about services make best effort.</p>
+			<div class="button">
+				<a href="#" class="btn">About Me</a>
+			</div>
+		</div>
+	</section>
 
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg">
+		</div>
 
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Website Designer!</h4>
+			<p>Check out 10 Best Design updates for the top web design & development 
+				companies for your needs by reviewing our list & development companies! 
+				Find the best web design. Web Design Consulting. Comprehensive Directory. 
+				Top Reviewed Design Firms. Types: Enterprise Design Firms, Startup Design 
+				Firms, Custom Design Firms, eCommerce Design Firms, and App Design Firms. 
+				Custom Web Solution. 24x7 Customer Support. Secure Payment Gateway. 
+				Get A Free Web Quote. 24/7 Chat Support. Services: Web Page Design, 
+				Landing Page Design, App development, Mobile Website Design.
+				</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+	</section>
 
-	<div class="max-width">
-		<div class="home-content">
-			<div class="text-1">Hello, my name is</div>
-			<div class="text-2">Kriyesh Aryal</div>
-			<div class="text-3">And I'm a <span id="typed"></span>
-			
+	<!-----------Services Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My</span>Services</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-mobile-alt'></i>
+			</div>
+			<h3>Web Design</h3>
+			<p>One Way to categories the activities is in terms of the professional's area of experience such as competitive analysis, corporate stragety.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-code-alt'></i>
+			</div>
+			<h3>Creative Design</h3>
+			<p>One Way to categories the activities is in terms of the professional's area of experience such as competitive analysis, corporate stragety.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-edit-alt'></i>
+			</div>
+			<h3>Creative Design</h3>
+			<p>One Way to categories the activities is in terms of the professional's area of experience such as competitive analysis, corporate stragety.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+	</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>latest</span>Project</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="row">
+			<img src="img/project1.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project2.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project3.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project4.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project5.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project6.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>If you have any project in your mind.</h4>
+		<p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
+		<div class="list">
+			<li><a href="#">0123456789</a></li>
+			<li><a href="#">itech@gmail.com</a></li>
+			<li><a href="#">Like Share & Subscribe</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="#"><i class='bx bxl-facebook'></i></a>
+			<a href="#"><i class='bx bxl-twitter' ></i></a>
+			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="#"><i class='bx bxl-youtube' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
 	</div>
 </section>
 
-<section id="about">
-	<div class="about-text">
-		<h1>About Us </h1>
-		<h2>Freelancing Graphics Desingner</h2>
-		<p>Being a graphic designer is a tough and often thankless job. That has a lot to do with who you are working for, of course. You are an artist in a world driven by business. In this world, there are easy roads and there are hard roads and everything in between.
-
-</p>
-<button class="hrn-btn">More Details</button>
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">	
 	</div>
-		<div class="about-model"></div>
-	<img src="image/myphoto.jpg">
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
 </section>
-  <!--services-------------------->
-	<section id="services">
-	<!--heading-------------->
-	<div class="s-heading">
-	<h1>Services</h1>
-	<p>Here Is The Some Servies Which We Provide You.</p>
-	</div>
-	<!--services-box-container--------->
-	<div class="b-container">
-	<!--box-1---------------->
-	<div class="s-box">
-	<!--img------------->
-	<div class="s-b-img">
-		<!--type----------->
-		<div class="s-type">Banner Desinging</div>
-		<!--name------->
-		<img src="image/download.jfif">
-	</div>
-	<!--text----------------->
-	<div class="s-b-text">
-	<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>	
-	</div>
-	</div>
-		<!--box-2---------------->
-	<div class="s-box">
-	<!--img------------->
-	<div class="s-b-img">
-	<!--type----------->
-		<div class="s-type">Logo desinging</div>
-		<!--name------->
-		<img src="image/logo.png">
-	</div>
-	<!--text----------------->
-	<div class="s-b-text">
-	<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>	
-	</div>
-	</div>
-		<!--box-3---------------->
-	<div class="s-box">
-	<!--img------------->
-	<div class="s-b-img">
-		<!--type----------->
-		<div class="s-type">Brochure Desinging</div>
-		<!--name------->
-		<img src="image/brouchure.jpg">
-	</div>
-	<!--text----------------->
-	<div class="s-b-text">
-	<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>	
-	</div>
-	</div>
-	</div>
-	</section>
-	<!--portfolio------------------->
-	<section id="portfolio">
-	<!--heading----------->
-	<h1 class="p-headind">Portfolio</h1>
-	<!--portfolio-container------------>
-	<div class="p-container">
-	<!--portfolio-box-1-------->
-	<div class="p-box">
-	<!--text--------->
-	<div class="overlay-text">
-	<h1>Writting</h1>
-	<p>Client Project</p>	
-	</div>
-	<!--bg-img------------->
-	<img src="image/writing.jfif">
-		
-	</div>
-	<!--portfolio-box-2-------->
-	<div class="p-box">
-		<!--text--------->
-	<div class="overlay-text">
-	<h1>Ideas</h1>
-	<p>Client Project</p>	
-	</div>
-	<!--bg-img------------->
-	<img src="image/idea.jfif">
-	</div>
-	<!--portfolio-box-3-------->
-	<div class="p-box">
-	<!--text--------->
-	<div class="overlay-text">
-	<h1>Logo</h1>
-	<p>Client Project</p>	
-	</div>
-	<!--bg-img------------->
-	<img src="image/logo.jfif">
-	</div>
-	<!--portfolio-box-4-------->
-	<div class="p-box">
-	<!--text--------->
-	<div class="overlay-text">
-	<h1>Video</h1>
-	<p>Client Project</p>	
-	</div>
-	<!--bg-img------------->	
-	<img src="image/video.jfif">
-	</div>
-	<!--portfolio-box-5-------->
-	<div class="p-box">
-	<!--text--------->
-	<div class="overlay-text">
-	<h1>Banner</h1>
-	<p>Client Project</p>	
-	</div>
-	<!--bg-img------------->	
-	<img src="image/banner.png">
-	</div>
-	<!--portfolio-box-6-------->
-	<div class="p-box">
-	<!--text--------->
-	<div class="overlay-text">
-	<h1>vector art</h1>
-	<p>Client Project</p>	
-	</div>
-	<!--bg-img------------->	
-	<img src="image/vector.png">
-	</div>
-</div>
-</section>
- <!--Contact-btn------------------>
-	<section id="contact-btn">
-	<!--heading-------------->
-	<h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
-	<!--btn-------->
-		<button >Contact Me</button>
-	</section>
-	
-	<!--contact-form------------------->
-	
 
-	<section id="contact-form">
-	<form>
-	<!--left--------------------------------------->
-	<div class="contact-left">
-	<h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
-	<!--name-------->
-	<div class="f-name">
-	<font >Name</font>
-	<input type="text" placeholder="Full Name"/>
-	</div>
-	<!--email-------->
-	<div class="f-email">
-	<font >Email</font>
-	<input type="email" placeholder="Example@gmail.com"/>
-	</div>
-	</div>
-	<!--right------------------------------------------->
-	<div class="contact-right">
-	<!--message-------->
-	<div class="message">
-	<font >Message</font>
-	<textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
-	</div>
-	<!--submit-btn------------>
-	<button>submit</button>
-	</div>
-		
-	</form>
-	</section>
-  
-	
-	
-
-
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src= "./script.js"></script>
 </body>
+
 </html>
